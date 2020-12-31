@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundparky"
+    tools:context=".DriverPrefrActivity">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/parkyimage"
+        android:contentDescription="@string/appIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PrefrQuestion"
+        android:layout_marginTop="-10dp"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mandatory"
+        android:textSize="15sp"
+        android:layout_marginStart="250dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Price"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"
+                tools:ignore="TextViewEdits" />
+
+            <EditText
+                android:id="@+id/activity_driver_prefr_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:inputType="number"
+                android:hint="@string/PriceHint"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LargeCars"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"/>
+
+            <EditText
+                android:id="@+id/activity_driver_prefr_largecar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/yesOrNo"
+                android:inputType="text"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TypeParking"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"/>
+
+            <EditText
+                android:id="@+id/activity_driver_prefr_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/openOrClosed"
+                android:inputType="text"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PrefrMaxDisLot"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"
+                tools:ignore="TextViewEdits" />
+
+            <EditText
+                android:id="@+id/activity_driver_distancepklot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:inputType="number"
+                android:hint="@string/PrefrMUntilLot"
+                android:text="@string/PrefrHintDistance"
+                tools:ignore="Autofill" />
+
+            <Button
+                android:id="@+id/activity_driver_prefr_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="@string/PrefrSearchLot"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="left"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corners"
+                tools:ignore="RtlCompat,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/activity_driver_prefr_status"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/PrefrNotYetSubm"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toEndOf="@+id/submit"
+                app:layout_constraintTop_toBottomOf="@+id/content" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

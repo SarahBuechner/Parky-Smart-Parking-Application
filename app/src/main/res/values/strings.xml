@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Parky - smarter parking for all </string>
+
+    <string name="appIcon">AppIcon </string>
+    <string name="mandatory">* mandatory </string>
+    <string name="yesOrNo">yes or no </string>
+    <string name="openOrClosed">open or closed </string>
+    <string name="Price">Price (in CHF/ h)* </string>
+    <string name="PriceHint">hourly price in CHF </string>
+    <string name="TypeParking">Type of Parking* </string>
+    <string name="LargeCars">For large Cars (yes/no)* </string>
+
+    <string name="PrefrQuestion">What kind of parking lot are you looking for?  </string>
+    <string name="PrefrMaxDisLot">Max. Distance to Lot (in meters) </string>
+    <string name="PrefrMUntilLot">meters until parking lot </string>
+    <string name="PrefrHintDistance">100 </string>
+    <string name="PrefrSearchLot">Search for parking lot </string>
+    <string name="PrefrNotYetSubm">Status: Not yet submitted </string>
+
+    <string name="MainQuestion">Are you ready for a new parking experience? </string>
+    <string name="MainButtonProvide">PROVIDE A PARKING LOT </string>
+    <string name="MainButtonBook">BOOK A PARKING LOT </string>
+
+    <string name="DetailsTitle">Parking Lot Details </string>
+    <string name="DetailsPrice">Price (in CHF/ h): </string>
+    <string name="DetailsNoDetailsPrice">No details about price </string>
+    <string name="DetailsAvailDate">Available until (date): </string>
+    <string name="DetailsNoDetailsAvailDate">No details about available date </string>
+    <string name="DetailsAvailTime">Available until (time in hours): </string>
+    <string name="DetailsNoDetailsAvailTime">No details about available time </string>
+    <string name="DetailsLargeCar">For large car: </string>
+    <string name="DetailsNoDetailsLargeCar">No details if for large cars </string>
+    <string name="DetailsTypePark">Type of Parking: </string>
+    <string name="DetailsNoDetailsParkyType">No details about parking type </string>
+    <string name="DetailsCityCentr">Distance to City Center (in meters): </string>
+    <string name="DetailsNoDetailsCityCenter">No details about distance to city center </string>
+    <string name="DetailsPublicTransp">Distance to Public Transport (in meters): </string>
+    <string name="DetailsNoDetailsPublicTransport">Status: No details about distance to public transport </string>
+    <string name="DetailsButtonBook">Book </string>
+    <string name="DetailsButtonMsg">Status: Not yet booked </string>
+
+    <string name="PublishParkingLotChar">Parking Lot Characteristics </string>
+    <string name="PublishavailableUntilD">Available until (date, format DD/MM/YYYY)* </string>
+    <string name="PublishavailDateHint">for example 31/01/2020 </string>
+    <string name="PublishavailableUntilH">Available until (hour in 24h format)* </string>
+    <string name="PublishavailTimeHint">for example 8 or 17 </string>
+    <string name="PublishdistanceCity">Distance to City Center (in meters) </string>
+    <string name="PublishdistanceHint">for example 100, 500, 1000 </string>
+    <string name="PublishdistancePublicTr">Distance to Public Transport (in meters) </string>
+    <string name="PublishbuttonProvideParking">Provide parking lot </string>
+    <string name="PublishbuttonProvideParkingText">Status: Parking availability not yet published </string>
+
+</resources>

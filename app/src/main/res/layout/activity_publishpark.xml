@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundparky"
+    tools:context=".PublishParkActivity">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/parkyimage"
+        android:contentDescription="@string/appIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/PublishParkingLotChar"
+        android:layout_marginTop="-10dp"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mandatory"
+        android:textSize="15sp"
+        android:layout_marginStart="250dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Price"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_publishpark_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/PriceHint"
+                android:inputType="number"
+                android:textSize="15sp"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/PublishavailableUntilD"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_publishpark_availdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:inputType="number"
+                android:hint="@string/PublishavailDateHint"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/PublishavailableUntilH"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_publishpark_availtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/PublishavailTimeHint"
+                android:inputType="number"
+                android:textSize="15sp"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/LargeCars"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_publishpark_bigcar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/yesOrNo"
+                android:textSize="15sp"
+                tools:ignore="Autofill"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/TypeParking"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_publishpark_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/openOrClosed"
+                android:textSize="15sp"
+                android:inputType="text"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/PublishdistanceCity"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_publishpark_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/PublishdistanceHint"
+                android:inputType="number"
+                android:textSize="15sp"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/PublishdistancePublicTr"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_publishpark_transport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/PublishdistanceHint"
+                android:inputType="number"
+                android:textSize="15sp"
+                tools:ignore="Autofill" />
+
+            <Button
+                android:id="@+id/activity_publishpark_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corners"
+                android:padding="10dp"
+                android:text="@string/PublishbuttonProvideParking"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/activity_publishpark_status"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/PublishbuttonProvideParkingText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toEndOf="@+id/submit"
+                app:layout_constraintTop_toBottomOf="@+id/content" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
